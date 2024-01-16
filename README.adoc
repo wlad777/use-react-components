@@ -1,0 +1,23 @@
+# Example how to use React component in ClojureScript application
+
+
+
+Install npm dependencies
+[source,shell]
+--
+  npm install
+--
+
+Launch Babel watcher
+[source,shell]
+--
+  npx babel js/src/ --out-dir js/generated/ --watch
+--
+
+Launch App
+[source,shell]
+--
+  npx shadow-cljs watch app
+--
+
+
